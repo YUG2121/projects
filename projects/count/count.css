@@ -1,0 +1,51 @@
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+gap: 10px;
+}
+
+#Incrementbtn{
+    padding: 10px;
+    background-color: rgb(114, 114, 219);
+   border-radius: 12px;
+   color: white;
+   font-weight: bolder;
+   border-color: rgb(156, 161, 161);
+}
+
+#Decrementbtn{
+    padding: 10px;
+    background-color: rgb(114, 114, 219);
+    border-radius: 12px;
+    color: white;
+    font-weight: bolder;
+    border-color: rgb(156, 161, 161);;
+}
+#countvalue{
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid gray;
+    padding: 5px;
+}
+
+#Resetbtn{
+    padding: 10px;
+    background-color: rgb(81, 81, 83);
+    border-radius: 12px;
+    color: white;
+    font-weight: bolder;
+    border-color: rgb(156, 161, 161);; 
+}
+.heading{
+    font-size: 40px;
+    text-decoration: underline;
+}
+body{
+    background-color: aliceblue;
+}
+#foot{
+    text-align: center;
+}
